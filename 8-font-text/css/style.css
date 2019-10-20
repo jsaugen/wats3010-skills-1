@@ -1,0 +1,50 @@
+h1,h2,h3{
+    text-align: center;
+}
+h2{letter-spacing: .3rem;
+}
+sup {
+    text-decoration: none;
+    color:black;
+    font-size: 1rem;
+}
+sup :hover {
+    background-color: red;
+}
+body {
+    font-size: 1.3rem;
+    background-color: #b5c678
+    
+}
+article {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #0c374d;
+}
+ p.article {
+     margin: 3rem;
+    }
+article p::first-letter{
+    font-size: 3rem;
+}
+header{
+    color:#0c374d
+}
+#s1 :hover {
+color:grey}
+
+.Verdana {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#Times {font-weight:bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+#impact {font-style:italic; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+#Gill {font-stretch: ultra-expanded;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.Georgia {font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.Lucida {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.Tahoma {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+
+.Palatino {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}

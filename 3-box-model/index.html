@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" class="text/css" href="reset.css">
+<link rel="stylesheet" class="text/css" href="css/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>HTML Tags and Default Styles</title>
+  <style>
+  img {
+  outline: 8px solid darkslategray;
+      }
+</style>
 </head>
 <body>
-  <h1>HTML Tags and Default Styles</h1>
-  <div>Cat images are some of the most viewed content on the web</div>
+  <div class="container">
+  <h1> HTML Tags and Default Styles</h1>
+
+  <h2>Cat images are some of the most viewed content on the web</h2>
   <figure>
-    <img src="http://placekitten.com/200/300">
-    <figcaption>This picture is courtesy of <a href="https://placekitten.com/">Place Kitten</a></figcaption>
+
+    <img src="http://placekitten.com/200/300"> 
+    <figcaption><h4 font-weight=normal>This picture is courtesy of <a href="https://placekitten.com/">Place Kitten</a></h4></figcaption>
+  
   </figure>
 
-
-  <p>Striking Sky</p>
-  <section>
-  <img src="images/clouds-dark-dramatic-325117.jpg">This picture is courtesy of <a href="https://www.pexels.com">Pexels.com</a>
-  
+ <h2 font-weight=bold, font-family="Helvetica">Striking Sky</h2>
+ <section>
+<img src="images/clouds-dark-dramatic-325117.jpg" width="320" height="480">
+<h4 font-weight=normal>This picture is courtesy of <a href="https://www.pexels.com">Pexels.com </a></h4>
 </section>
+
+</div>
 
 </body>
 </html>

@@ -2,22 +2,42 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="css/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Images and Text</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
 
+</head>
+<style>
+
+div {
+  border: 3px solid black;
+  padding: 10px;
+}
+.clearfix {
+  overflow: auto;
+}
+img{
+  float: left;}
+
+.wrapped 
+{width:50%;
+height:auto;
+text-align: left; 
+margin: 1rem;
+}
+</style>
 <body>
+  
   <h1>Floating Text Next To Image</h1>
   <p>Sometimes we like to wrap text around an image</p>
-  <div>
-    <img src="images/boat.jpg" alt="Boat">
-    <p> Pork belly fashion axe taxidermy photo booth succulents cred. Humblebrag authentic bicycle rights farm-to-table
+  <div class="wrapped">
+    <div class="clearfix"><img src="images/boat.jpg" alt="Boat">
+    <p>Pork belly fashion axe taxidermy photo booth succulents cred. Humblebrag authentic bicycle rights farm-to-table
       bespoke umami lo-fi keytar coloring book chicharrones hoodie palo santo typewriter. Pok pok activated charcoal
-      meditation tousled craft beer.
-    </p>
+      meditation tousled craft beer.</p>
+  </div>
   </div>
   <p>Floating the image will allow the text to appear next to it.</p>
   <footer>Content from <a href="https://hipsum.co">Hipster Ipsum</a> </footer>
